@@ -144,3 +144,11 @@ img {
     width: 64px;
     height: 64px;
   }
+footer p{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    width:100%;
+    height: 30px;
+    background-color: chartreuse; 
+}
