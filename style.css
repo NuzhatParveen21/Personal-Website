@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    font-family: 'PT Serif', serif;
+}
+.navbar ul{
+    list-style: none;
+    text-align: right;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    width: 80px;
+    display: block;
+    padding: 15px 20px;
+    font-weight: 700;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 50px;
+    color:sienna;
+}
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+p{
+    color:black;
+}
+.orange {
+    color: orange;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+
+}
+
+.link-button {
+    display: block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px; 
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(50deg, lightSalmon, tomato);
+    border-radius: 4px;
+    color: white;
+    font-weight: 900;
+}
+
+section {
+    height: 500px;
+    padding: 75px 0px;
+}
+
+.working-projects {
+    text-align: center;
+    background-color: #E9EBEE;
+}
+
+.projects-header {
+    margin-bottom: 1.5em;
+}
+
+.projects-container {
+    text-align: center;
+}
+
+.project {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 8px;
+    align-items: center;
+    padding: 10px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.project__image {
+    display: block;
+    width: 100%;
+    height: 65%;
+    border-radius: 6px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contact-outer {
+    display: block;
+    width: 700px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.contact-inner {
+    width: 100%;
+    height: 100%;
+    line-height: 160px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact-inner__text {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.contact-inner__button {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    /* float: right; */
+}
